@@ -1,6 +1,9 @@
 //Debemos lograr mostrar un mensaje al presionar el botón  'mostrar'.
 function mostrar()
 {
-	alert("ok");
+	
+var nombre;
+    nombre = prompt("Ingresar un nombre", "Matias");
+    alert(nombre);
 }
 

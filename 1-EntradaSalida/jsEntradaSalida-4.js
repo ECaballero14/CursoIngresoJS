@@ -4,6 +4,14 @@
 */
 function mostrar()
 {
+  
+ var nombre;
+ //Lo que escriba en la ventana 
+ nombre = prompt("Ingresar nombre");
+ //lo muestro en el textboxt 
+ //elNombre.value=nombre; 
+ document.getElementById('elNombre').value=nombre;
+
 
 }
 
